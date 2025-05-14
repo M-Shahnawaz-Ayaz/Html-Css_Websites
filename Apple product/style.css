@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#left {
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1616353071588-708dcff912e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#right {
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1598094670018-abf669538033?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#overlay1 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.60);      
+}
+
+#overlay2 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.3)   
+}
+#detail1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+#detail2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+}
+
+#detail1 h1{
+font-size: 20px;
+font-weight: 100;
+letter-spacing: 2px;
+} 
+#detail2 h1{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    } 
+
+#detail1 p{
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    } 
+    #detail2 p{
+        font-size: 10px;
+        letter-spacing: 2px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        } 
+
+#detail1 button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#detail2 button {
+    background-color: transparent;
+    color: rgb(7, 7, 7);
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#detail1 button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+#detail2 button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}

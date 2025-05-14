@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html , body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    
+}
+#main #header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20PX 60px;
+    
+
+}
+#header #nav {
+   
+}
+#nav a {
+    text-decoration: none;
+    padding-right: 20px; 
+    
+}
+#nav a:hover {
+    cursor: pointer;
+    color: rgb(74, 135, 249);
+    border-radius: 20px;
+    transition: all 0.5s;
+    font-weight: 600;
+}
+#nav i {
+    padding-right: 15px; 
+    font-size: 18px;
+}
+#main #img {
+    width: 88%;
+    height: 60%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1683796885543-1184acc66f51?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 65px;
+    opacity: 0.7;
+}
+#main #img:hover {
+    opacity: 0.9;
+    transition: all .5s;
+
+}
+#main #mid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+#mid h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 90px;
+    margin-right: 0px;
+
+
+}
+#mid button {
+    font-size: 15px;
+    padding: 10px 10px;
+    background-image: linear-gradient(to left,orangered,rgb(220, 100, 100));
+    color: #FFF;
+    border: none;
+    position: absolute;
+    left: 150px;
+    top: 65px;
+    cursor: pointer;
+}
+#mid button:hover {
+color: black;
+background-image: linear-gradient(to bottom,rgb(107, 255, 28),rgb(220, 100, 100));
+border-radius: 20px;
+}
+#main #search {
+    position: absolute;
+    left: 150px;
+    top: 330px;
+    width: 75%;
+    height:100px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #d6d6d6;
+}
+p {
+padding-bottom: 10px;
+}
+#search input {
+margin-right:100px;
+padding: 2px;
+}
+#search #out {
+    position: relative;
+}
+#find {
+    position: absolute;
+    left: 140px;
+    padding: 4px 20px;
+    background-image: linear-gradient(orangered,lightcoral);
+    border: none;
+    color: #fff;
+}

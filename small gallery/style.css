@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html , body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    background: #000000;
+}
+#main h1 {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+#main #image {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+padding-top: 10px;
+gap: 20px;
+}
+#image .img {
+    height: 180px;
+    width: 250px;
+    background-size: cover;
+    background-position: top;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+   
+
+}
+#image .img:hover {
+    background-position:bottom;
+    transition: all 3s;
+    background-image: grow in;
+}

@@ -1,0 +1,989 @@
+* {
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     font-family: Nunito;
+     background-image: linear-gradient(to left,#FFF8EC,#fff4e1);
+}
+html , body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    
+}
+#main #header {
+    height: 58px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+#header #logo img{
+    height: 34px;
+    margin-left: 40px;
+}
+#header #nav {
+    display: flex;
+    gap: 50px;
+}
+#nav button {
+    margin-right: 100px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: red;
+    border: none;
+    border: 2px solid red;
+    background: transparent;
+    cursor: pointer;
+}
+#nav button:hover {
+    background: rgb(241, 50, 50);
+    color: #FFF8EC;
+}
+#nav a {
+    padding: 10px 10px;
+    text-decoration: none;
+    color: black;
+}
+#nav a:hover {
+    border-bottom: 2px solid red;
+}
+#main #manu {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    
+}
+#main #left {
+    position: relative;
+    width: 50%;
+    height: 350px;
+    
+    
+}
+#left #frame {
+    padding: 30px 60px;
+}
+#frame img {
+    height: 165px;
+    margin-top: 30px;
+    
+}
+#left #text { 
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    top: 225px;
+    left: 60px;
+    
+}
+#text button {
+    margin-top: 40px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    border: 2px solid red;
+    background: red;
+    cursor: pointer;
+}
+#text button:hover {
+    background: rgb(241, 50, 50);
+    color: black;
+}
+#main #Right {
+    position: relative;
+    width: 50%;
+    height: 450px;
+   
+}
+#Right #image {
+    height: 440px;
+    width: 480px;
+    background-image: url(/Image/Home/image\ 22.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 95px;
+    top: 39px;
+    
+}
+#Right #loc {
+    height: 70px;
+    width: 200px;
+    z-index: 999;
+    background-image: url(/Image/Home/loc.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    border-radius: 10px;
+    right: 55px;
+    top: 400px;
+
+}
+#Right #com {
+    height: 70px;
+    width: 250px;
+    z-index: 999;
+    border-radius: 10px;
+    background-image: url(/Image/Home/cim.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 440px;
+    top: 420px;
+
+}
+
+#Right #deli {
+    height: 70px;
+    width: 250px;
+    z-index: 999;
+    border-radius: 10px;
+    background-image: url(/Image/Home/deli.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 440px;
+    top: 155px;
+
+}
+#Right #bg {
+    height: 350px;
+    width: 450px;
+    background: #ff9e0c;
+    border-radius: 40px;
+    position: absolute;
+    top: 130px;
+    left: 55px;
+}
+#main #reward {
+    width: 100%;
+    height: 270px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    background: transparent;
+    
+}
+#reward #A {
+    position: relative;
+    height: 270px;
+    width: 300px;
+    border-radius: 10px;
+   background:#ffffff8b;
+   margin-left: 20px;
+  
+}
+#A:hover {
+    transform: rotate(360deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.7s;
+
+}
+#A .img {
+    background-image: url(/Image/Home/A.png);
+    height: 190px;
+    width: 190px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 45px;
+    margin-top: 10px;
+    
+}
+
+#A a {
+    position: absolute;
+    top: 230px;
+    left: 100px;
+    text-decoration: none;
+    color: black;
+    background:transparent;
+}
+#A a:hover {
+    color: red;
+}
+
+#reward #B {
+    position: relative;
+    height: 270px;
+    width: 300px;
+    border-radius: 10px;
+   background:#ffffff8b;
+}
+#B:hover {
+    transform: rotate(360deg);
+    transition: all 0.7s;
+}
+#B .img {
+    background-image: url(/Image/Home/B.png);
+    height: 190px;
+    width: 190px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 45px;
+    margin-top: 10PX;  
+}
+
+#B a {
+    position: absolute;
+    top: 230px;
+    left: 100px;
+    text-decoration: none;
+    color: black;
+    background:transparent;
+}
+#B a:hover {
+    color: red;
+}
+
+
+#reward #C {
+    position: relative;
+    height: 270px;
+    width: 300px;
+    border-radius: 10px;
+   background:#ffffff8b;
+}
+#C:hover {
+    transform: rotate(360deg);
+    transition: all 0.7s;
+}
+#C .img {
+    background-image: url(/Image/Home/C.png);
+    height: 190px;
+    width: 190px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 45px;
+    margin-top: 10PX;  
+}
+
+#C a {
+    position: absolute;
+    top: 230px;
+    left: 100px;
+    text-decoration: none;
+    color: black;
+    background:transparent;
+}
+#C a:hover {
+    color: red;
+}
+
+
+#reward #D {
+    position: relative;
+    height: 270px;
+    width: 300px;
+    border-radius: 10px;
+   background:#ffffff8b;
+}
+#D:hover {
+    transform: rotate(360deg);
+    transition: all 0.7s;
+}
+#D .img {
+    background-image: url(/Image/Home/D.png);
+    height: 190px;
+    width: 190px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 45px;
+    margin-top: 10PX;  
+}
+#D a {
+    position: absolute;
+    top: 230px;
+    left: 100px;
+    text-decoration: none;
+    color: black;
+    background:transparent;
+}
+#D a:hover {
+    color: red;
+}
+
+#main #mid {
+    height: 550px;
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+    background: transparent;
+   
+}
+#mid #lf {
+    height: 500px;
+    width: 50%;
+}
+#lf .img {
+    height: 550px;
+    width: 610px;
+    background-image: url(/Image/Ourmenu/image\ 28.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.img:hover { 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+#mid #rt {
+    height: 600px;
+    width: 50%;
+    background: #ffffff3a;
+    margin-left: 40px;
+}
+#rt h1 {
+    font-size: 40px;
+    margin-left: 10PX;
+    z-index: 999;
+
+}
+#rt #title {
+    width: 94%;
+    height: 400px;
+    
+}
+#title #first {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    padding: 10px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+#first img {
+    height: 80px;
+    width: 80px;
+    margin: 30px 10px;
+    border-radius: 50%;
+}
+#first .comment {
+    height: 100px;
+}
+#first h1 {
+    font-size: 30px;
+}
+#first p {
+    font-size: 20px;
+    padding: 10px 10px;
+}
+#title #second {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    padding: 10px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#second img {
+    height: 80px;
+    width: 80px;
+    margin: 30px 10px;
+    border-radius: 50%;
+}
+#second .comment {
+    height: 100px;
+}
+#second h1 {
+    font-size: 30px;
+}
+#second p {
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+#title #third {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    padding: 10px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+#third img {
+    height: 80px;
+    width: 80px;
+    margin: 30px 10px;
+    border-radius: 50%;
+}
+#third .comment {
+    height: 100px;
+}
+#third h1 {
+    font-size: 30px;
+}
+#third p {
+    font-size: 20px;
+    padding: 10px 10px;
+}
+#main #info {
+    position: relative;
+    margin-top: 90px;
+    
+}
+ #info #detail {
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+ }
+ #detail h1 {
+    font-size: 35px;
+    padding-left: 40px;
+ 
+    
+ }
+ #detail .sec {
+    padding-left: 40px;
+ }
+ #main #dish {
+    width: 99%;
+    height: 850px;
+    margin-top: 150px;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+
+ }
+ #dish button:hover {
+    color: black;
+    box-shadow: 0 0 10px rgba(233, 106, 106, 0.7);
+    border: 2px solid;
+    background:lightseagreen;
+ }
+ #dish #dish1 {
+     width: 400px;
+     height: 400px;
+     margin-left: 5px;
+     background:#fff;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+     
+ }
+ #dish1:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ }
+ #dish1 .dishimg {
+    width: 100%;
+    height: 70%;
+    background-size:cover;
+    background-position: top;
+background-image: url(/Image/Ourmenu/dish1.png);
+ }
+ #dish1 .buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    background: transparent;
+ }
+ .buy h5 {
+padding: 10px 15px;
+font-size: 22px;
+font-weight: 500;
+background: transparent;
+ }
+ .buy button {
+    padding: 5px 20px;
+    margin-right: 15px;
+    border-radius: 20px;
+    background: rgb(255, 10, 10);
+    border: none;
+    color: #fff;
+ }
+
+ #dish1 img {
+width: 90%;
+background: transparent;
+margin-left: 15px;
+
+ }
+ #dish #dish2 {
+    width: 400px;
+    height: 400px;
+    background:#fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+ }
+ #dish2:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ }
+ #dish2 .dishimg {
+    width: 100%;
+    height: 70%;
+    background-size:cover;
+    background-position: top;
+background-image: url(/Image/Ourmenu/dish2.png);
+ }
+ #dish2 .buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    background: transparent;
+ }
+ .buy h5 {
+padding: 10px 15px;
+font-size: 22px;
+font-weight: 500;
+background: transparent;
+ }
+ .buy button {
+    padding: 5px 20px;
+    margin-right: 15px;
+    border-radius: 20px;
+    background: rgb(255, 10, 10);
+    border: none;
+    color: #fff;
+ }
+ #dish2 img {
+width: 90%;
+background: transparent;
+margin-left: 15px;
+
+ }
+ #dish #dish3 {
+    width: 400px;
+    height: 400px;
+    background:#fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+ }
+ #dish3:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ }
+ 
+ #dish3 .dishimg {
+    width: 100%;
+    height: 70%;
+    background-size:cover;
+    background-position: top;
+background-image: url(/Image/Ourmenu/dish3.png);
+ }
+ #dish3 .buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    background: transparent;
+ }
+ .buy h5 {
+padding: 10px 15px;
+font-size: 22px;
+font-weight: 500;
+background: transparent;
+ }
+ .buy button {
+    padding: 5px 20px;
+    margin-right: 15px;
+    border-radius: 20px;
+    background: rgb(255, 10, 10);
+    border: none;
+    color: #fff;
+ }
+ #dish3 img {
+width: 90%;
+background: transparent;
+margin-left: 15px;
+
+ }
+ #dish #dish4 {
+    width: 400px;
+    height: 400px;
+    background:#fff;
+    margin-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+ }
+
+ #dish4:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ }
+ #dish4 .dishimg {
+    width: 100%;
+    height: 70%;
+    background-size:cover;
+    background-position: top;
+background-image: url(/Image/Ourmenu/dish4.png);
+ }
+ #dish4 .buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    background: transparent;
+ }
+ .buy h5 {
+padding: 10px 15px;
+font-size: 22px;
+font-weight: 500;
+background: transparent;
+ }
+ .buy button {
+    padding: 5px 20px;
+    margin-right: 15px;
+    border-radius: 20px;
+    background: rgb(255, 10, 10);
+    border: none;
+    color: #fff;
+ }
+ #dish4 img {
+width: 90%;
+background: transparent;
+margin-left: 15px;
+
+ }
+ #dish #dish5 {
+    width: 400px;
+    height: 400px;
+    background:#fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+ }
+ #dish5:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ }
+ 
+ #dish5 .dishimg {
+    width: 100%;
+    height: 70%;
+    background-size:cover;
+    background-position: top;
+background-image: url(/Image/Ourmenu/dish5.png);
+ }
+ #dish5 .buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    background: transparent;
+ }
+ .buy h5 {
+padding: 10px 15px;
+font-size: 22px;
+font-weight: 500;
+background: transparent;
+ }
+ .buy button {
+    padding: 5px 20px;
+    margin-right: 15px;
+    border-radius: 20px;
+    background: rgb(255, 10, 10);
+    border: none;
+    color: #fff;
+ }
+ #dish5 img {
+width: 90%;
+background: transparent;
+margin-left: 15px;
+
+ }
+ #dish #dish6 {
+    width: 400px;
+    height: 400px;
+    background:#fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+ }
+ #dish6:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ }
+ #dish6 .dishimg {
+    width: 100%;
+    height: 70%;
+    background-size:cover;
+    background-position: top;
+background-image: url(/Image/Ourmenu/v6.png);
+ }
+ #dish6 .buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    background: transparent;
+ }
+ .buy h5 {
+padding: 10px 15px;
+font-size: 22px;
+font-weight: 500;
+background: transparent;
+ }
+ .buy button {
+    padding: 5px 20px;
+    margin-right: 15px;
+    border-radius: 20px;
+    background: rgb(255, 10, 10);
+    border: none;
+    color: #fff;
+ }
+ #dish6 img {
+width: 90%;
+background: transparent;
+margin-left: 15px;
+
+ }
+  #main #feedback {
+    display: flex;
+    width: 100%;
+    height: 550px;
+    margin-top: 20px;
+ }
+ 
+ #feedback #le {
+   width: 50%;
+   height: 550px;
+ }
+#le #tell {
+    width: 400px;
+    height: 200px;
+    margin: 60px 30px;
+}
+#tell h1{
+    font-size: 35px;
+    display:inline-block;
+}
+#tell .red {
+    color: red;
+    padding-left: 10px;
+}
+#le #self {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#self #me {
+    width: 60px;
+    height: 60px;
+    background: slateblue;
+    border-radius: 50%;
+    background-image: url(/Image/Ourmenu/DSC_4083.JPG);
+    background-size: cover;
+    background-position:center; 
+    margin-bottom: 150px;
+}
+#self #my {
+    margin-bottom: 150px;
+    margin-right: 310px;
+}
+#my h3 {
+color: red;
+}
+#my h5 {
+    font-family: gilroy;
+    font-weight: 100;
+}
+#self #slid img {
+    width: 40px;
+    margin-bottom: 160px;
+    margin-right: 20px;
+    background: transparent;
+
+}
+ #feedback #ri {
+position: relative;
+    width: 50%;
+    height: 550px;
+ }
+ #ri #bgimg {
+    width: 200px;
+    height: 330px;
+    position: absolute;
+    right: 65px;
+    top: 120px;
+    background:#ff9e0c;
+    border-top: 190px solid #fff8ec ;
+    border-right:390px solid transparent;
+    border-top-right-radius:10px;
+ }
+ #ri #chif {
+    width: 450px;
+    height: 450px;
+     background-image: url(/Image/Ourmenu/Chef.png);
+     background-size: cover;
+     background-position: center;
+     position: absolute;
+     left: 150px;
+     top: 1px;
+ }
+#main #line {
+    width: 100%;
+    height: 0.5px;
+    background: red;
+}
+#main #Footer {
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+}
+#Footer #join {
+width: 100%;
+height: 160px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+.letter h5 {
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom:10px;
+}
+.letter .color {
+    color: red;
+}
+#in input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid;
+}
+#in button {
+    padding: 8px 15px;
+    border-radius: 10px;
+    color: #fff;
+    background: red;
+    border: 1px solid;
+}
+#Footer #line2 {
+    width:84%;
+    height: 1px;
+    background:black;
+     margin-bottom: 30px;
+     margin-left: 100px;
+}
+#Footer #foot {
+    width: 100%;
+    height:500px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    
+}
+#foot #product {
+    width: 390px;
+   display: flex;
+   flex-direction: column;
+   margin-left: 100px;
+   gap: 20px;
+}
+#foot a:hover{
+    color: red;
+}
+#product h3 {
+    display: flex;
+    flex-direction: row;
+}
+#product a {
+    text-decoration: none;
+    color: black;
+}
+#foot #product1 {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#product1 h3 {
+    display: flex;
+    flex-direction: row;
+}
+#product1 a {
+    text-decoration: none;
+    color: black;
+}
+#foot #product2 {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#product2 h3 {
+    display: flex;
+    flex-direction: row;
+}
+#product2 a {
+    text-decoration: none;
+    color: black;
+}
+#foot #product3 {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#product3 h3 {
+    display: flex;
+    flex-direction: row;
+}
+#product3 a {
+    text-decoration: none;
+    color: black;
+}
+#foot #product4 {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+    gap: 20px;
+}
+#product4 h3 {
+    display: flex;
+    flex-direction: row;
+}
+#product4 a {
+    text-decoration: none;
+    color: black;
+}
+#Footer #line3 {
+    width: 85%;
+    height: 0.5px;
+    background: #000;
+    position: absolute;
+    left: 95px;
+    bottom: 40px;
+}
+#Footer #end {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 480px;
+    left: 130px;
+}
+#end #word {
+display: flex;
+align-items: center;
+gap: 50px;
+
+}
+#word h6{
+ font-weight: 500;
+}
